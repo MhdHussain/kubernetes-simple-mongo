@@ -1,0 +1,6 @@
+apiVersion: v1
+data:
+  ME_CONFIG_MONGODB_SERVER: mongo
+kind: ConfigMap
+metadata:
+  name: mongo-config-map
